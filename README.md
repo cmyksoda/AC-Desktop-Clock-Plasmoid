@@ -13,7 +13,7 @@ The clock shows the month and day, day of the week, and time on rolling digits, 
 
 ## Installing
 
-Download the `.plasmoid` file from the latest release, then in Plasma open *Add Widgets → Get New Widgets → Install Widget From Local File* and select it. The widget can be placed on the desktop or on a panel.
+Download the `.plasmoid` file from the latest release, then in Plasma open *Add Widgets → Get New Widgets → Install Widget From Local File* and select it. The widget can be placed on the desktop or on a panel. (Although it looks really small and squished on most panels xD)
 
 The widget shows at the original's size by default; *Configure → General* scales it up by whole pixels so it stays crisp. The same page has the 24-hour option, the chime volume, quiet hours, and the colon blink.
 

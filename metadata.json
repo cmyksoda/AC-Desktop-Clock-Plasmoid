@@ -1,0 +1,22 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "cmyksoda"
+            }
+        ],
+        "Category": "Date & Time",
+        "Description": "The 2005 Animal Crossing Desktop Clock, reborn as a Plasma widget.",
+        "EnabledByDefault": true,
+        "Icon": "clock",
+        "Id": "dev.cmyksoda.animalclock",
+        "License": "GPL-3.0+",
+        "Name": "Animal Crossing Clock",
+        "Version": "1.0.0"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-Provides": [
+        "org.kde.plasma.time"
+    ]
+}

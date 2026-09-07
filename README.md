@@ -13,7 +13,7 @@ The clock shows the month and day, day of the week, and time on rolling digits, 
 
 ## Installing
 
-Download the `.plasmoid` file from the latest release, then in Plasma open *Add Widgets → Get New Widgets → Install Widget From Local File* and select it. The widget can be placed on the desktop or on a panel.
+Download the `.plasmoid` file from the latest release, then in Plasma open *Add Widgets → Get New Widgets → Install Widget From Local File* and select it. The widget can be placed on the desktop or on a panel. (Although it looks really small and squished on most panels xD)
 
 The widget shows at the original's size by default; *Configure → General* scales it up by whole pixels so it stays crisp. The same page has the 24-hour option, the chime volume, quiet hours, and the colon blink.
 
@@ -27,7 +27,7 @@ kpackagetool6 --type Plasma/Applet --install .
 
 ## About the Network Evaluation page
 
-In the summer of 2005, Nintendo of America distributed this desktop widget as an incentive for participating in a ten-minute connectivity test for the Nintendo Wi-Fi Connection, prior to the service's official launch. The clock's *Network Evaluation* command asked a few questions about your router, pinged Nintendo's server to report the results. That service is long gone, so the *Network Evaluation* page in this widget's settings is a replica of the original dialog, rebuilt screen by screen from footage of the 2005 program. It includes the welcome text, the router survey, the firewall notice, the evaluation screen, and the message you get after aborting, with the original button artwork. It connects to nothing and sends nothing. Because the server no longer answers, the evaluation never completes; *Abort* takes you back to the start.
+In the summer of 2005, Nintendo of America distributed this desktop widget as an incentive for participating in a ten-minute connectivity test for the Nintendo Wi-Fi Connection, prior to the service's official launch. The clock's *Network Evaluation* command asked a few questions about your router, and pinged Nintendo's server to report the results. That service is long gone, so the *Network Evaluation* page in this widget's settings is a replica of the original dialog, rebuilt screen by screen from footage of the 2005 program. It includes the welcome text, the router survey, the firewall notice, the evaluation screen, and the message you get after aborting, with the original button artwork. It connects to nothing and sends nothing. Because the server no longer answers, the evaluation never completes; *Abort* takes you back to the start.
 
 ## History
 

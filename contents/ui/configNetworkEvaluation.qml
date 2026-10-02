@@ -125,8 +125,9 @@ KCM.SimpleKCM {
                             QQC2.ComboBox {
                                 id: brandBox
                                 Layout.preferredWidth: 150 * dialog.s
-                                model: ["----", "(Other)", "(Unknown)", "3Com", "ACCTON", "Actiontec", "Airlink", "Apple",
-                                        "Belkin", "Buffalo", "D-Link", "Linksys", "Microsoft", "Motorola", "NEC",
+                                model: ["----", "(Other)", "(Unknown)", "3Com", "ACCTON",
+                                        "Actiontec", "Airlink", "Apple", "Belkin", "Buffalo",
+                                        "D-Link", "Linksys", "Microsoft", "Motorola", "NEC",
                                         "Netgear", "SMC", "U.S.Robotics", "YAMAHA"]
                             }
                         }
@@ -216,6 +217,7 @@ KCM.SimpleKCM {
                     visible: page.stage <= 2
                     onClicked: page.restart()
                 }
+
                 SpriteButton {
                     x: 16 * dialog.s; y: 3 * dialog.s
                     pixelScale: dialog.s
@@ -224,6 +226,7 @@ KCM.SimpleKCM {
                     visible: page.stage === 3
                     onClicked: page.stage = 4
                 }
+
                 SpriteButton {
                     x: 216 * dialog.s; y: 3 * dialog.s
                     pixelScale: dialog.s
@@ -232,6 +235,7 @@ KCM.SimpleKCM {
                     visible: page.stage === 1 || page.stage === 2
                     onClicked: { page.surveyNag = false; page.stage -= 1 }
                 }
+
                 SpriteButton {
                     x: 304 * dialog.s; y: 3 * dialog.s
                     pixelScale: dialog.s
@@ -248,6 +252,7 @@ KCM.SimpleKCM {
                         page.stage += 1
                     }
                 }
+
                 SpriteButton {
                     x: 304 * dialog.s; y: 3 * dialog.s
                     pixelScale: dialog.s
@@ -256,6 +261,7 @@ KCM.SimpleKCM {
                     visible: page.stage === 2
                     onClicked: page.stage = 3
                 }
+
                 SpriteButton {
                     x: 336 * dialog.s; y: 3 * dialog.s
                     pixelScale: dialog.s

@@ -41,6 +41,4 @@ The widget's code is released under the GNU General Public License, version 3 or
 
 *Animal Crossing* and *Doubutsu no Mori* are trademarks of Nintendo. This project is not affiliated with or endorsed by Nintendo.
 
----
-
 *This project was made with AI assistance. For more information, see [my AI usage statement](https://github.com/cmyksoda/cmyksoda/blob/main/AI_USAGE.md).*
